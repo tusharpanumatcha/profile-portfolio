@@ -1,0 +1,43 @@
+.resumeTxt {
+    display: none;
+    margin-right: 10px;
+}
+
+.resumeBtn:hover {
+    .resumeTxt {
+        display: block;
+    }
+}
+
+.navbar .navbar-brand a.navbar-item img {
+    height: 70px;
+    width: 200px;
+ }
+
+@media screen and (max-width: 400px) {
+    .navbar .navbar-brand a.navbar-item img {
+        height: 30px;
+        width: 120px;
+     }
+ .navbar-item {
+    //  display: none;
+     img {
+        height: 30px;
+        width: 120px;
+     }
+    position: -webkit-sticky !important;
+    position: sticky !important;
+    top: 0;
+    right: 0;
+ }
+ .resumeBtn {
+    .resumeTxt {
+        display: block;
+    }
+}
+}
+
+.navbar {
+    z-index: 1;
+    width: -webkit-fill-available;
+}

@@ -1,0 +1,139 @@
+.footerDiv {
+    margin-top: 5rem;
+    padding-bottom: 0;
+}
+
+
+#social {
+  margin: 20px 10px;
+  text-align: center;
+}
+
+.smGlobalBtn { /* global button class */
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px;
+    box-shadow: 0 2px 2px #999;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 2em;
+    border-radius: 25px;
+    -moz-border-radius:25px;
+    -webkit-border-radius:25px;
+}
+
+@media screen and (max-width: 500px) {
+    .smGlobalBtn {
+        width: 40px;
+        height: 40px;
+        margin: 0px 5px;
+        font-size: 20px;
+        border-radius: 20px;
+        -moz-border-radius:20px;
+        -webkit-border-radius:20px;
+
+    }
+    .column .level-item{
+        display: unset !important;
+    }
+    // .mobileCenteredDiv {
+
+    // }
+    .section.call-to-action .box .button.is-outlined.is-rounded.is-medium {
+        padding: 8px 15px !important;
+    }
+    .mobileCenteredDiv {
+        display: block;
+        margin: 0 !important;
+    }
+}
+
+/* facebook button class*/
+.facebookBtn{
+    background: #4060A5;
+}
+
+.facebookBtn:before{ /* use :before to add the relevant icons */
+    font-family: "FontAwesome";
+    content: "\f09a"; /* add facebook icon */
+}
+
+.facebookBtn:hover{
+    color: #4060A5;
+    background: #fff;
+}
+
+/* twitter button class*/
+.twitterBtn{
+    background: #00ABE3;
+}
+
+.twitterBtn:before{
+      font-family: "FontAwesome";
+      content: "\f099"; /* add twitter icon */
+}
+
+.twitterBtn:hover{
+      color: #00ABE3;
+      background: #fff;
+}
+
+/* google plus button class*/
+.googleplusBtn{
+    background: #e64522;
+}
+
+.googleplusBtn:before{
+      font-family: "FontAwesome";
+      content: "\f0d5"; /* add googleplus icon */
+}
+
+.googleplusBtn:hover{
+      color: #e64522;
+      background: #fff;
+}
+
+/* linkedin button class*/
+.linkedinBtn{
+    background: #0094BC;
+}
+
+.linkedinBtn:before{
+      font-family: "FontAwesome";
+      content: "\f0e1"; /* add linkedin icon */
+}
+
+.linkedinBtn:hover{
+      color: #0094BC;
+      background: #fff;
+}
+
+/* GITHUB*/
+.githubBtn {
+background-color:#000;
+}
+.githubBtn:hover{
+    color: #000;
+    background: #fff;
+}
+.stackOverflowBtn {
+    color: white;
+    background-color: orange;
+}
+.stackOverflowBtn:hover {
+    color: orange;
+    background: #fff;
+}
+
+.box-overwrite {
+    background: #fff !important;
+    box-shadow: none;  
+    color: #000; 
+}

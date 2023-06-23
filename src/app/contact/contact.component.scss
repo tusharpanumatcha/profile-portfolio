@@ -1,0 +1,28 @@
+.submit {
+    color: #241480;
+}
+
+.submit:hover {
+    a{
+        color: white;        
+    }
+    color: white;
+}
+
+.formHight {
+    height: unset;
+}
+
+.closeIcon {
+    float: right; margin-top: 15px; margin-right: 10px; display: block; font-size: 30px;
+}
+
+.closeIcon:hover {
+    cursor: pointer;
+    font-size: 35px;
+}
+@media screen and (max-width: 400px) {
+    .formHight {
+        height: 65rem;
+    }  
+   }

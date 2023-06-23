@@ -1,0 +1,65 @@
+<section class="section skills has-text-centered">
+    <div class="container is-narrow">
+      <h1 class="title is-spaced is-size-3-desktop is-size-4-mobile main-title">Technical Skills</h1>
+      <div class="box">
+        <div class="content">
+          <div class="columns is-centered"> 
+            <!-- FrontEnd -->
+            <div class="column">
+              <figure class="image"><img class="is-skill-icon" src="assets/images/front-end.png"></figure>
+              <h1 class="title is-size-4 is-spaced">Front-end</h1>
+              <!-- <p>I value simple content structure, clean design patterns, and thoughtful interactions.</p> -->
+              <p class="list-title has-text-primary has-text-weight-normal">Design Languages used:</p>
+              <div class="chip" *ngFor="let frontend of frontends">
+                <img src="assets/images/skills-logo/{{frontend.logo}}" 
+                alt="{{frontend.name}}" width="96" height="96">
+               <span style="margin-left: 10px;" title="{{frontend.name}}">{{frontend.name}}</span> 
+              </div>
+              <p class="list-title has-text-primary has-text-weight-normal">Dev Tools:</p>
+              <div class="chip" *ngFor="let FEDT of feDevtools">
+                <img src="assets/images/skills-logo/{{FEDT.logo}}" 
+                alt="{{FEDT.name}}" width="96" height="96">
+               <span style="margin-left: 10px;" title="{{FEDT.name}}">{{FEDT.name}}</span> 
+              </div>
+            </div>
+            <!-- Back-end -->
+            <div class="column">
+              <figure class="image"><img class="is-skill-icon" src="assets/images/back-end.png"></figure>
+              <h1 class="title is-size-4 is-spaced">Back-end</h1>
+              <!-- <p>I like to code things from scratch, and enjoy bringing ideas to life in the browser.</p> -->
+              <p class="list-title has-text-primary has-text-weight-normal">Server side API's created with:</p>
+              <div class="chip" *ngFor="let backend of backends">
+                  <img src="assets/images/skills-logo/{{backend.logo}}" 
+                  alt="{{backend.name}}" width="96" height="96">
+                  <span style="margin-left: 10px;" title="{{backend.name}}">{{backend.name}}</span> 
+              </div>
+              <p class="list-title has-text-primary has-text-weight-normal">Dev Tools:</p>
+              <div class="chip" *ngFor="let BEDT of beDevtools">
+                <img src="assets/images/skills-logo/{{BEDT.logo}}"
+                alt="{{BEDT.name}}" width="96" height="96">
+               <span style="margin-left: 10px;" title="{{BEDT.name}}">{{BEDT.name}}</span> 
+              </div>
+            </div>
+            <!-- Databases -->
+            <div class="column"> 
+              <figure class="image"><img class="is-skill-icon" src="assets/images/db.png"></figure>
+              <h1 class="title is-size-4 is-spaced">Database's</h1>
+              <!-- <p>I genuinely care about people, and love helping fellow designers work on their craft.</p> -->
+              <p class="list-title has-text-primary has-text-weight-normal">Schemas and Queries derived with:</p>
+              <div class="chip" *ngFor="let database of databases">
+                <img src="assets/images/skills-logo/{{database.logo}}" 
+                alt="{{database.name}}" width="96" height="96">
+               <span style="margin-left: 10px;" title="{{database.name}}">{{database.name}}</span> 
+              </div>
+              <p class="list-title has-text-primary has-text-weight-normal">Tools:</p>
+              <div class="chip" *ngFor="let DBDT of dbDevtools">
+                <img src="assets/images/skills-logo/{{DBDT.logo}}" 
+                alt="{{DBDT.name}}" width="96" height="96">
+               <span style="margin-left: 10px;" title="{{DBDT.name}}">{{DBDT.name}}</span> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>

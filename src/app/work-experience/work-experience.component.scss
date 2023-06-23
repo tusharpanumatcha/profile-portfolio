@@ -1,0 +1,11 @@
+
+.bgImg {
+    background: 
+      /* top, transparent red */ 
+      linear-gradient(
+        rgba(36,20,128, 0.90), 
+        rgba(36,20,128, 0.95)
+      ),
+      /* bottom, image */
+      url(src/assets/images/dotted-bg.jpg);  
+}
